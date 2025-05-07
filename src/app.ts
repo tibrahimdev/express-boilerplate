@@ -5,7 +5,6 @@ const app = express();
 app.use(express.json());
 
 // Routes
-app.use('/api/health', healthRouter)
-
+app.use('/api/health', healthRouter);
 
 export default app;
